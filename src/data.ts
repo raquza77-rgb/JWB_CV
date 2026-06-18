@@ -12,7 +12,7 @@ export const PERSONAL_ROLE = "Clinical Research Associate II & Registered Nurse"
 export const PERSONAL_BIO = "Accomplished Clinical Research Associate II and Registered Professional Nurse with a robust nursing foundation from Korea University Anam Hospital. Demonstrates over 5 years of combined experience in high-density clinical research operations, on-site monitoring, study coordination, and professional patient care. Proven competence managing international and local Phase I-IV trials in Oncology, Pulmonology, Neurology, and Nephrology while guaranteeing protocol accuracy, GCP compliance, and participant safety.";
 
 // Image import path (will correspond to the generated asset)
-export const PROFILE_IMAGE_URL = "/src/assets/images/ji_won_bang_profile_1781777445380.jpg";
+export const PROFILE_IMAGE_URL = "https://raw.githubusercontent.com/raquza77-rgb/JWB_CV/733ca7f3faf6b8c59167a5285b8aecf7ef8c4899/JWB_profile.jpg";
 
 export const CONTACT_DATA: ContactInfo = {
   phone: "+82 10 3359 7378",
