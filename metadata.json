@@ -1,0 +1,6 @@
+{
+  "name": "JiWon Bang Portfolio",
+  "description": "Professional portfolio website of JiWon Bang (Registered Nurse & Clinical Research Associate II), detailing clinical operations experience, oncology projects, vendor credentials, and educational path.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..900;1,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Lora", var(--font-sans);
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-editorial-bg: #FDFCFB;
+  --color-brand-editorial-text: #1A1A1A;
+  --color-brand-editorial-blue: #2c5282;
+  
+  --color-brand-50: #f4f6f8;
+  --color-brand-100: #e2e8f0;
+  --color-brand-200: #cbd5e1;
+  --color-brand-300: #94a3b8;
+  --color-brand-400: #64748b;
+  --color-brand-500: #2c5282; /* Map the main brand color to the elegant blue */
+  --color-brand-600: #1e3a5f;
+  --color-brand-700: #1a202c;
+  --color-brand-800: #0f172a;
+  --color-brand-900: #1e3a5f;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-brand-editorial-bg);
+  color: var(--color-brand-editorial-text);
+  overflow-x: hidden;
+}
+
+.font-editorial-serif {
+  font-family: var(--font-serif);
+}
+
+.font-editorial-display {
+  font-family: var(--font-display);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Custom fade-in and slide-up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* Custom interactive scrollbar mimicking architectural draft files */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fbf9f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #1a1a1a;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2c5282;
+}
